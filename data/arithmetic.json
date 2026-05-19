@@ -1,0 +1,356 @@
+[
+  {
+    "id": "arith_01",
+    "question": "15 + 27",
+    "answer": "42",
+    "difficulty": 1,
+    "hint": "Сложи десятки и единицы.",
+    "explanation": "15+27=42.",
+    "error_patterns": [
+      "calculation_error"
+    ]
+  },
+  {
+    "id": "arith_02",
+    "question": "50 - 18",
+    "answer": "32",
+    "difficulty": 1,
+    "hint": "Вычти по разрядам.",
+    "explanation": "50-18=32.",
+    "error_patterns": [
+      "sign_error"
+    ]
+  },
+  {
+    "id": "arith_03",
+    "question": "7 × 8",
+    "answer": "56",
+    "difficulty": 1,
+    "hint": "Таблица умножения на 7.",
+    "explanation": "7×8=56.",
+    "error_patterns": [
+      "calculation_error"
+    ]
+  },
+  {
+    "id": "arith_04",
+    "question": "72 ÷ 9",
+    "answer": "8",
+    "difficulty": 1,
+    "hint": "Сколько раз 9 в 72?",
+    "explanation": "72/9=8.",
+    "error_patterns": [
+      "calculation_error"
+    ]
+  },
+  {
+    "id": "arith_05",
+    "question": "100 + 35",
+    "answer": "135",
+    "difficulty": 1,
+    "hint": "Сложи сотни и десятки.",
+    "explanation": "100+35=135.",
+    "error_patterns": [
+      "calculation_error"
+    ]
+  },
+  {
+    "id": "arith_06",
+    "question": "63 - 27",
+    "answer": "36",
+    "difficulty": 2,
+    "hint": "Заём из десятков.",
+    "explanation": "63-27=36.",
+    "error_patterns": [
+      "sign_error",
+      "decimal_place"
+    ]
+  },
+  {
+    "id": "arith_07",
+    "question": "12 × 15",
+    "answer": "180",
+    "difficulty": 2,
+    "hint": "12×10 + 12×5.",
+    "explanation": "120+60=180.",
+    "error_patterns": [
+      "calculation_error"
+    ]
+  },
+  {
+    "id": "arith_08",
+    "question": "144 ÷ 12",
+    "answer": "12",
+    "difficulty": 2,
+    "hint": "Деление.",
+    "explanation": "144/12=12.",
+    "error_patterns": [
+      "calculation_error"
+    ]
+  },
+  {
+    "id": "arith_09",
+    "question": "6 × 7 + 8",
+    "answer": "50",
+    "difficulty": 2,
+    "hint": "Сначала умножение.",
+    "explanation": "42+8=50.",
+    "error_patterns": [
+      "order_of_operations"
+    ]
+  },
+  {
+    "id": "arith_10",
+    "question": "100 - 37 + 15",
+    "answer": "78",
+    "difficulty": 2,
+    "hint": "Слева направо.",
+    "explanation": "63+15=78.",
+    "error_patterns": [
+      "order_of_operations"
+    ]
+  },
+  {
+    "id": "arith_11",
+    "question": "25 × 4 - 30",
+    "answer": "70",
+    "difficulty": 3,
+    "hint": "Сначала умножение.",
+    "explanation": "100-30=70.",
+    "error_patterns": [
+      "order_of_operations"
+    ]
+  },
+  {
+    "id": "arith_12",
+    "question": "(48 + 12) ÷ 6",
+    "answer": "10",
+    "difficulty": 3,
+    "hint": "Сначала скобки.",
+    "explanation": "60/6=10.",
+    "error_patterns": [
+      "order_of_operations"
+    ]
+  },
+  {
+    "id": "arith_13",
+    "question": "3 × (10 - 4)",
+    "answer": "18",
+    "difficulty": 3,
+    "hint": "Сначала вычитание в скобках.",
+    "explanation": "3×6=18.",
+    "error_patterns": [
+      "order_of_operations"
+    ]
+  },
+  {
+    "id": "arith_14",
+    "question": "200 ÷ 5 × 2",
+    "answer": "80",
+    "difficulty": 3,
+    "hint": "Слева направо при × и ÷.",
+    "explanation": "40×2=80.",
+    "error_patterns": [
+      "order_of_operations"
+    ]
+  },
+  {
+    "id": "arith_15",
+    "question": "15 + 3 × 4",
+    "answer": "27",
+    "difficulty": 3,
+    "hint": "Умножение раньше сложения.",
+    "explanation": "15+12=27.",
+    "error_patterns": [
+      "order_of_operations"
+    ]
+  },
+  {
+    "id": "arith_16",
+    "question": "2³ + 5",
+    "answer": "13",
+    "difficulty": 3,
+    "hint": "2³ = 8.",
+    "explanation": "8+5=13.",
+    "error_patterns": [
+      "order_of_operations"
+    ]
+  },
+  {
+    "id": "arith_17",
+    "question": "√36 + 4",
+    "answer": "10",
+    "difficulty": 4,
+    "hint": "√36 = 6.",
+    "explanation": "6+4=10.",
+    "error_patterns": [
+      "calculation_error"
+    ]
+  },
+  {
+    "id": "arith_18",
+    "question": "(15 - 3) × (2 + 4)",
+    "answer": "72",
+    "difficulty": 4,
+    "hint": "Реши обе скобки.",
+    "explanation": "12×6=72.",
+    "error_patterns": [
+      "order_of_operations"
+    ]
+  },
+  {
+    "id": "arith_19",
+    "question": "100 ÷ (5 + 5) × 3",
+    "answer": "30",
+    "difficulty": 4,
+    "hint": "Сначала скобки.",
+    "explanation": "100/10×3=30.",
+    "error_patterns": [
+      "order_of_operations"
+    ]
+  },
+  {
+    "id": "arith_20",
+    "question": "-7 + 12",
+    "answer": "5",
+    "difficulty": 4,
+    "hint": "Сложи числа с разными знаками.",
+    "explanation": "-7+12=5.",
+    "error_patterns": [
+      "sign_error"
+    ]
+  },
+  {
+    "id": "arith_21",
+    "question": "-4 × 6",
+    "answer": "-24",
+    "difficulty": 4,
+    "hint": "Минус × плюс = минус.",
+    "explanation": "-24.",
+    "error_patterns": [
+      "sign_error"
+    ]
+  },
+  {
+    "id": "arith_22",
+    "question": "(-3)²",
+    "answer": "9",
+    "difficulty": 4,
+    "hint": "Квадрат отрицательного положителен.",
+    "explanation": "9.",
+    "error_patterns": [
+      "sign_error"
+    ]
+  },
+  {
+    "id": "arith_23",
+    "question": "3.5 + 2.25",
+    "answer": "5.75",
+    "difficulty": 4,
+    "hint": "Сложи десятичные по разрядам.",
+    "explanation": "5.75.",
+    "error_patterns": [
+      "decimal_place"
+    ]
+  },
+  {
+    "id": "arith_24",
+    "question": "8.4 - 3.6",
+    "answer": "4.8",
+    "difficulty": 5,
+    "hint": "Вычитание десятичных.",
+    "explanation": "4.8.",
+    "error_patterns": [
+      "decimal_place"
+    ]
+  },
+  {
+    "id": "arith_25",
+    "question": "0.5 × 0.4",
+    "answer": "0.2",
+    "difficulty": 5,
+    "hint": "5×4=20, учти запятую.",
+    "explanation": "0.2.",
+    "error_patterns": [
+      "decimal_place"
+    ]
+  },
+  {
+    "id": "arith_26",
+    "question": "(1.2 + 0.8) × 5",
+    "answer": "10",
+    "difficulty": 5,
+    "hint": "Сначала скобки.",
+    "explanation": "2×5=10.",
+    "error_patterns": [
+      "order_of_operations"
+    ]
+  },
+  {
+    "id": "arith_27",
+    "question": "48 ÷ 0.6",
+    "answer": "80",
+    "difficulty": 5,
+    "hint": "Сдвинь запятую.",
+    "explanation": "48/0.6=80.",
+    "error_patterns": [
+      "decimal_place"
+    ]
+  },
+  {
+    "id": "arith_28",
+    "question": "2 + 3 × 4 - 6 ÷ 2",
+    "answer": "11",
+    "difficulty": 5,
+    "hint": "× и ÷, потом + и -.",
+    "explanation": "2+12-3=11.",
+    "error_patterns": [
+      "order_of_operations"
+    ]
+  },
+  {
+    "id": "arith_29",
+    "question": "| -8 | + 3²",
+    "answer": "17",
+    "difficulty": 5,
+    "hint": "Модуль и степень.",
+    "explanation": "8+9=17.",
+    "error_patterns": [
+      "order_of_operations",
+      "sign_error"
+    ]
+  },
+  {
+    "id": "arith_30",
+    "question": "(20 - 8)² ÷ 4",
+    "answer": "36",
+    "difficulty": 5,
+    "hint": "Скобки, степень, деление.",
+    "explanation": "12²/4=36.",
+    "error_patterns": [
+      "order_of_operations"
+    ]
+  },
+  {
+    "id": "arith_h_31",
+    "question": "(48 ÷ 6 + 7) × 5",
+    "answer": "75",
+    "difficulty": 5,
+    "hint": "Сначала действие в скобках.",
+    "explanation": "48 ÷ 6 = 8. Затем 8 + 7 = 15. И наконец 15 × 5 = 75.",
+    "error_patterns": [
+      "order_of_operations"
+    ]
+  },
+  {
+    "id": "arith_h_32",
+    "question": "125 - (18 × 4) + 9",
+    "answer": "62",
+    "difficulty": 5,
+    "hint": "Сначала умножение.",
+    "explanation": "18 × 4 = 72. Далее 125 - 72 = 53. Затем 53 + 9 = 62.",
+    "error_patterns": [
+      "calculation_error"
+    ]
+  }
+]

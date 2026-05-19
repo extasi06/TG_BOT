@@ -1,0 +1,362 @@
+[
+  {
+    "id": "word_01",
+    "question": "У Маши было 12 яблок, она отдала 5. Сколько осталось?",
+    "answer": "7",
+    "difficulty": 1,
+    "hint": "Это задача на вычитание.",
+    "explanation": "12-5=7.",
+    "error_patterns": [
+      "misread_condition",
+      "calculation_error"
+    ]
+  },
+  {
+    "id": "word_02",
+    "question": "В коробке 20 карандашей, добавили 8. Сколько стало?",
+    "answer": "28",
+    "difficulty": 1,
+    "hint": "Сложение.",
+    "explanation": "20+8=28.",
+    "error_patterns": [
+      "misread_condition"
+    ]
+  },
+  {
+    "id": "word_03",
+    "question": "Купили 3 пачки по 6 печений. Сколько печений?",
+    "answer": "18",
+    "difficulty": 1,
+    "hint": "3×6.",
+    "explanation": "18.",
+    "error_patterns": [
+      "calculation_error"
+    ]
+  },
+  {
+    "id": "word_04",
+    "question": "Длина отрезка 15 см, отрезали 7 см. Сколько осталось?",
+    "answer": "8",
+    "difficulty": 1,
+    "hint": "Вычитание.",
+    "explanation": "8 см.",
+    "error_patterns": [
+      "misread_condition"
+    ]
+  },
+  {
+    "id": "word_05",
+    "question": "В автобусе 25 пассажиров, вышло 9. Сколько осталось?",
+    "answer": "16",
+    "difficulty": 1,
+    "hint": "25-9.",
+    "explanation": "16.",
+    "error_patterns": [
+      "sign_error"
+    ]
+  },
+  {
+    "id": "word_06",
+    "question": "Книга 120 страниц, прочитали 45. Сколько осталось?",
+    "answer": "75",
+    "difficulty": 2,
+    "hint": "120-45.",
+    "explanation": "75.",
+    "error_patterns": [
+      "misread_condition"
+    ]
+  },
+  {
+    "id": "word_07",
+    "question": "Торт разрезали на 8 частей, съели 3. Сколько осталось?",
+    "answer": "5",
+    "difficulty": 2,
+    "hint": "8-3.",
+    "explanation": "5.",
+    "error_patterns": [
+      "calculation_error"
+    ]
+  },
+  {
+    "id": "word_08",
+    "question": "Сосед купил 4 кг яблок по 50 руб/кг. Сколько заплатил?",
+    "answer": "200",
+    "difficulty": 2,
+    "hint": "4×50.",
+    "explanation": "200 руб.",
+    "error_patterns": [
+      "calculation_error"
+    ]
+  },
+  {
+    "id": "word_09",
+    "question": "Поезд ехал 2 часа со скоростью 60 км/ч. Какое расстояние?",
+    "answer": "120",
+    "difficulty": 2,
+    "hint": "s = v × t.",
+    "explanation": "60×2=120 км.",
+    "error_patterns": [
+      "misread_condition",
+      "unit_conversion"
+    ]
+  },
+  {
+    "id": "word_10",
+    "question": "Бочка 50 л, налили 18 л. Сколько осталось?",
+    "answer": "32",
+    "difficulty": 2,
+    "hint": "50-18.",
+    "explanation": "32 л.",
+    "error_patterns": [
+      "sign_error"
+    ]
+  },
+  {
+    "id": "word_11",
+    "question": "Площадь прямоугольника 6 см на 8 см.",
+    "answer": "48",
+    "difficulty": 3,
+    "hint": "S = a × b.",
+    "explanation": "6×8=48 см².",
+    "error_patterns": [
+      "misread_condition"
+    ]
+  },
+  {
+    "id": "word_12",
+    "question": "Периметр квадрата 20 см. Найди сторону.",
+    "answer": "5",
+    "difficulty": 3,
+    "hint": "P=4a.",
+    "explanation": "20/4=5.",
+    "error_patterns": [
+      "calculation_error"
+    ]
+  },
+  {
+    "id": "word_13",
+    "question": "Возраст брата 12 лет, сестры 8. На сколько брат старше?",
+    "answer": "4",
+    "difficulty": 3,
+    "hint": "12-8.",
+    "explanation": "4 года.",
+    "error_patterns": [
+      "misread_condition"
+    ]
+  },
+  {
+    "id": "word_14",
+    "question": "За 5 тетрадей заплатили 75 руб. Цена одной?",
+    "answer": "15",
+    "difficulty": 3,
+    "hint": "75÷5.",
+    "explanation": "15 руб.",
+    "error_patterns": [
+      "calculation_error"
+    ]
+  },
+  {
+    "id": "word_15",
+    "question": "Расстояние 90 км, скорость 45 км/ч. Время в пути?",
+    "answer": "2",
+    "difficulty": 3,
+    "hint": "t = s/v.",
+    "explanation": "2 ч.",
+    "error_patterns": [
+      "unit_conversion"
+    ]
+  },
+  {
+    "id": "word_16",
+    "question": "В классе 28 учеников, 3/7 — девочки. Сколько девочек?",
+    "answer": "12",
+    "difficulty": 3,
+    "hint": "28×3/7.",
+    "explanation": "12.",
+    "error_patterns": [
+      "fraction_addition",
+      "misread_condition"
+    ]
+  },
+  {
+    "id": "word_17",
+    "question": "Книга 240 стр., прочитано 3/8. Сколько страниц?",
+    "answer": "90",
+    "difficulty": 4,
+    "hint": "240×3/8.",
+    "explanation": "90.",
+    "error_patterns": [
+      "wrong_common_denominator",
+      "misread_condition"
+    ]
+  },
+  {
+    "id": "word_18",
+    "question": "Бассейн наполняют 2 часа по 15 л/мин. Сколько литров?",
+    "answer": "1800",
+    "difficulty": 4,
+    "hint": "Переведи часы в минуты.",
+    "explanation": "120×15=1800.",
+    "error_patterns": [
+      "unit_conversion"
+    ]
+  },
+  {
+    "id": "word_19",
+    "question": "Товар стоил 500 руб., скидка 20%. Новая цена?",
+    "answer": "400",
+    "difficulty": 4,
+    "hint": "20% от 500 = 100.",
+    "explanation": "500-100=400.",
+    "error_patterns": [
+      "calculation_error",
+      "misread_condition"
+    ]
+  },
+  {
+    "id": "word_20",
+    "question": "Два числа в сумме 50, одно на 8 больше другого. Меньшее число?",
+    "answer": "21",
+    "difficulty": 4,
+    "hint": "x+(x+8)=50.",
+    "explanation": "2x=42, x=21.",
+    "error_patterns": [
+      "misread_condition"
+    ]
+  },
+  {
+    "id": "word_21",
+    "question": "Путь 180 км: 1/3 на автобусе, остальное пешком. Сколько км пешком?",
+    "answer": "120",
+    "difficulty": 4,
+    "hint": "Найди 1/3 пути.",
+    "explanation": "180/3=60 автобус, 120 пешком.",
+    "error_patterns": [
+      "fraction_addition",
+      "misread_condition"
+    ]
+  },
+  {
+    "id": "word_22",
+    "question": "Смешали 2 кг раствора 30% и 3 кг воды. Какой процент получился?",
+    "answer": "12",
+    "difficulty": 5,
+    "hint": "Масса вещества / общая масса.",
+    "explanation": "0.6/5=12%.",
+    "error_patterns": [
+      "misread_condition",
+      "calculation_error"
+    ]
+  },
+  {
+    "id": "word_23",
+    "question": "Число увеличили на 25% и получили 125. Исходное число?",
+    "answer": "100",
+    "difficulty": 5,
+    "hint": "125 = 1.25x.",
+    "explanation": "x=100.",
+    "error_patterns": [
+      "calculation_error"
+    ]
+  },
+  {
+    "id": "word_24",
+    "question": "Два рабочих за 6 ч делают заказ. Первый один — 10 ч. Второй один?",
+    "answer": "15",
+    "difficulty": 5,
+    "hint": "1/6 = 1/10 + 1/x.",
+    "explanation": "x=15 ч.",
+    "error_patterns": [
+      "misread_condition"
+    ]
+  },
+  {
+    "id": "word_25",
+    "question": "Прямоугольник: длина на 20% больше ширины 10 см. Площадь?",
+    "answer": "120",
+    "difficulty": 5,
+    "hint": "Длина 12 см.",
+    "explanation": "12×10=120.",
+    "error_patterns": [
+      "misread_condition"
+    ]
+  },
+  {
+    "id": "word_26",
+    "question": "Авто проехало 60 км за 1 ч и 40 км за 2 ч. Средняя скорость (км/ч)?",
+    "answer": "46.67",
+    "difficulty": 5,
+    "hint": "Общий путь / общее время.",
+    "explanation": "(60+40)/3≈46.67.",
+    "error_patterns": [
+      "unit_conversion",
+      "misread_condition"
+    ]
+  },
+  {
+    "id": "word_27",
+    "question": "Отрезок разделили в отношении 2:3, большая часть 15 см. Весь отрезок?",
+    "answer": "25",
+    "difficulty": 5,
+    "hint": "15 см — это 3 части.",
+    "explanation": "5×5=25.",
+    "error_patterns": [
+      "misread_condition"
+    ]
+  },
+  {
+    "id": "word_28",
+    "question": "Цена +10%, потом -10%. Итог от 100%?",
+    "answer": "99",
+    "difficulty": 5,
+    "hint": "Возьми 100 для удобства.",
+    "explanation": "110×0.9=99.",
+    "error_patterns": [
+      "calculation_error"
+    ]
+  },
+  {
+    "id": "word_29",
+    "question": "Верёвка 2/5 м, отрезали 1/3 м. Остаток?",
+    "answer": "1/15",
+    "difficulty": 5,
+    "hint": "Знаменатель 15.",
+    "explanation": "6/15-5/15=1/15.",
+    "error_patterns": [
+      "wrong_common_denominator"
+    ]
+  },
+  {
+    "id": "word_30",
+    "question": "Возраст отца в 3 раза больше сына (12 лет). Возраст отца?",
+    "answer": "36",
+    "difficulty": 5,
+    "hint": "3×12.",
+    "explanation": "36 лет.",
+    "error_patterns": [
+      "misread_condition"
+    ]
+  },
+  {
+    "id": "word_h_31",
+    "question": "В магазине было 120 тетрадей. За день продали 35, а потом привезли ещё 20. Сколько тетрадей стало?",
+    "answer": "105",
+    "difficulty": 5,
+    "hint": "Сначала вычти, потом прибавь.",
+    "explanation": "Было 120. После продажи осталось 120 - 35 = 85. Затем привезли ещё 20: 85 + 20 = 105.",
+    "error_patterns": [
+      "misread_condition"
+    ]
+  },
+  {
+    "id": "word_h_32",
+    "question": "Поезд ехал 3 часа со скоростью 72 км/ч. Какое расстояние он проехал?",
+    "answer": "216",
+    "difficulty": 5,
+    "hint": "Используй формулу расстояния.",
+    "explanation": "Расстояние = скорость × время. 72 × 3 = 216 км.",
+    "error_patterns": [
+      "calculation_error"
+    ]
+  }
+]

@@ -1,0 +1,386 @@
+[
+  {
+    "id": "frac_01",
+    "question": "1/2 + 1/4",
+    "answer": "3/4",
+    "difficulty": 1,
+    "hint": "Приведи к знаменателю 4.",
+    "explanation": "1/2=2/4, 2/4+1/4=3/4.",
+    "error_patterns": [
+      "wrong_common_denominator",
+      "fraction_addition"
+    ]
+  },
+  {
+    "id": "frac_02",
+    "question": "1/3 + 1/3",
+    "answer": "2/3",
+    "difficulty": 1,
+    "hint": "Знаменатели одинаковы — складывай числители.",
+    "explanation": "1+1=2, знаменатель 3.",
+    "error_patterns": [
+      "added_numerators_only"
+    ]
+  },
+  {
+    "id": "frac_03",
+    "question": "3/4 - 1/4",
+    "answer": "1/2",
+    "difficulty": 1,
+    "hint": "Вычти числители при общем знаменателе.",
+    "explanation": "3-1=2, получается 2/4=1/2.",
+    "error_patterns": [
+      "calculation_error"
+    ]
+  },
+  {
+    "id": "frac_04",
+    "question": "1/5 + 2/5",
+    "answer": "3/5",
+    "difficulty": 1,
+    "hint": "Сложи числители.",
+    "explanation": "1+2=3.",
+    "error_patterns": [
+      "added_numerators_only"
+    ]
+  },
+  {
+    "id": "frac_05",
+    "question": "2/3 - 1/3",
+    "answer": "1/3",
+    "difficulty": 1,
+    "hint": "Вычитание при общем знаменателе.",
+    "explanation": "2-1=1.",
+    "error_patterns": [
+      "sign_error"
+    ]
+  },
+  {
+    "id": "frac_06",
+    "question": "1/2 + 1/2",
+    "answer": "1",
+    "difficulty": 1,
+    "hint": "Сложи числители при знаменателе 2.",
+    "explanation": "2/2=1.",
+    "error_patterns": [
+      "fraction_addition"
+    ]
+  },
+  {
+    "id": "frac_07",
+    "question": "1/4 + 1/4",
+    "answer": "1/2",
+    "difficulty": 2,
+    "hint": "Сложи числители.",
+    "explanation": "2/4 упрощается до 1/2.",
+    "error_patterns": [
+      "wrong_common_denominator"
+    ]
+  },
+  {
+    "id": "frac_08",
+    "question": "1/3 + 1/6",
+    "answer": "1/2",
+    "difficulty": 2,
+    "hint": "Общий знаменатель 6.",
+    "explanation": "1/3=2/6, 2/6+1/6=3/6=1/2.",
+    "error_patterns": [
+      "wrong_common_denominator",
+      "fraction_addition"
+    ]
+  },
+  {
+    "id": "frac_09",
+    "question": "3/5 - 1/5",
+    "answer": "2/5",
+    "difficulty": 2,
+    "hint": "Вычти числители.",
+    "explanation": "3-1=2.",
+    "error_patterns": [
+      "sign_error"
+    ]
+  },
+  {
+    "id": "frac_10",
+    "question": "2/5 + 1/5",
+    "answer": "3/5",
+    "difficulty": 2,
+    "hint": "Общий знаменатель 5.",
+    "explanation": "2+1=3.",
+    "error_patterns": [
+      "added_numerators_only"
+    ]
+  },
+  {
+    "id": "frac_11",
+    "question": "1/2 - 1/3",
+    "answer": "1/6",
+    "difficulty": 2,
+    "hint": "НОК(2,3)=6.",
+    "explanation": "3/6-2/6=1/6.",
+    "error_patterns": [
+      "wrong_common_denominator"
+    ]
+  },
+  {
+    "id": "frac_12",
+    "question": "3/4 + 1/8",
+    "answer": "7/8",
+    "difficulty": 2,
+    "hint": "Приведи 3/4 к восьмым.",
+    "explanation": "6/8+1/8=7/8.",
+    "error_patterns": [
+      "wrong_common_denominator"
+    ]
+  },
+  {
+    "id": "frac_13",
+    "question": "5/6 - 1/2",
+    "answer": "1/3",
+    "difficulty": 3,
+    "hint": "1/2 = 3/6.",
+    "explanation": "5/6-3/6=2/6=1/3.",
+    "error_patterns": [
+      "wrong_common_denominator",
+      "sign_error"
+    ]
+  },
+  {
+    "id": "frac_14",
+    "question": "2/3 + 1/4",
+    "answer": "11/12",
+    "difficulty": 3,
+    "hint": "НОК знаменателей 12.",
+    "explanation": "8/12+3/12=11/12.",
+    "error_patterns": [
+      "wrong_common_denominator",
+      "fraction_addition"
+    ]
+  },
+  {
+    "id": "frac_15",
+    "question": "7/10 - 2/5",
+    "answer": "3/10",
+    "difficulty": 3,
+    "hint": "2/5 = 4/10.",
+    "explanation": "7/10-4/10=3/10.",
+    "error_patterns": [
+      "wrong_common_denominator"
+    ]
+  },
+  {
+    "id": "frac_16",
+    "question": "1/2 × 1/3",
+    "answer": "1/6",
+    "difficulty": 3,
+    "hint": "Умножь числители и знаменатели.",
+    "explanation": "1×1 / 2×3.",
+    "error_patterns": [
+      "fraction_multiplication",
+      "fraction_addition"
+    ]
+  },
+  {
+    "id": "frac_17",
+    "question": "2/3 × 3/4",
+    "answer": "1/2",
+    "difficulty": 3,
+    "hint": "Сократи результат.",
+    "explanation": "6/12=1/2.",
+    "error_patterns": [
+      "fraction_multiplication"
+    ]
+  },
+  {
+    "id": "frac_18",
+    "question": "3/5 × 2/3",
+    "answer": "2/5",
+    "difficulty": 3,
+    "hint": "Перемножь и упрости.",
+    "explanation": "6/15=2/5.",
+    "error_patterns": [
+      "fraction_multiplication"
+    ]
+  },
+  {
+    "id": "frac_19",
+    "question": "1/2 ÷ 1/4",
+    "answer": "2",
+    "difficulty": 3,
+    "hint": "Деление = умножение на перевёрнутую.",
+    "explanation": "1/2×4/1=2.",
+    "error_patterns": [
+      "division_error"
+    ]
+  },
+  {
+    "id": "frac_20",
+    "question": "3/4 ÷ 1/2",
+    "answer": "3/2",
+    "difficulty": 4,
+    "hint": "Переверни вторую дробь.",
+    "explanation": "3/4×2/1=6/4=3/2.",
+    "error_patterns": [
+      "division_error"
+    ]
+  },
+  {
+    "id": "frac_21",
+    "question": "2/3 ÷ 4/9",
+    "answer": "3/2",
+    "difficulty": 4,
+    "hint": "Умножь на 9/4.",
+    "explanation": "18/12=3/2.",
+    "error_patterns": [
+      "division_error"
+    ]
+  },
+  {
+    "id": "frac_22",
+    "question": "1 1/2 + 1/4",
+    "answer": "7/4",
+    "difficulty": 4,
+    "hint": "1 1/2 = 3/2.",
+    "explanation": "3/2+1/4=6/4+1/4=7/4.",
+    "error_patterns": [
+      "wrong_common_denominator"
+    ]
+  },
+  {
+    "id": "frac_23",
+    "question": "2 1/3 - 1/2",
+    "answer": "11/6",
+    "difficulty": 4,
+    "hint": "2 1/3 = 7/3.",
+    "explanation": "7/3-1/2=14/6-3/6=11/6.",
+    "error_patterns": [
+      "wrong_common_denominator",
+      "sign_error"
+    ]
+  },
+  {
+    "id": "frac_24",
+    "question": "3/8 + 5/12",
+    "answer": "19/24",
+    "difficulty": 4,
+    "hint": "НОК(8,12)=24.",
+    "explanation": "9/24+10/24=19/24.",
+    "error_patterns": [
+      "wrong_common_denominator"
+    ]
+  },
+  {
+    "id": "frac_25",
+    "question": "4/9 + 5/6",
+    "answer": "23/18",
+    "difficulty": 4,
+    "hint": "НОК(9,6)=18.",
+    "explanation": "8/18+15/18=23/18.",
+    "error_patterns": [
+      "wrong_common_denominator"
+    ]
+  },
+  {
+    "id": "frac_26",
+    "question": "5/6 - 3/8",
+    "answer": "11/24",
+    "difficulty": 5,
+    "hint": "НОК(6,8)=24.",
+    "explanation": "20/24-9/24=11/24.",
+    "error_patterns": [
+      "wrong_common_denominator",
+      "sign_error"
+    ]
+  },
+  {
+    "id": "frac_27",
+    "question": "2/3 × 1 1/4",
+    "answer": "5/6",
+    "difficulty": 5,
+    "hint": "1 1/4 = 5/4.",
+    "explanation": "2/3×5/4=10/12=5/6.",
+    "error_patterns": [
+      "fraction_multiplication"
+    ]
+  },
+  {
+    "id": "frac_28",
+    "question": "1 2/5 ÷ 3/10",
+    "answer": "14/3",
+    "difficulty": 5,
+    "hint": "1 2/5=7/5.",
+    "explanation": "7/5×10/3=70/15=14/3.",
+    "error_patterns": [
+      "division_error"
+    ]
+  },
+  {
+    "id": "frac_29",
+    "question": "3/4 - 2/3 + 1/6",
+    "answer": "1/4",
+    "difficulty": 5,
+    "hint": "Общий знаменатель 12.",
+    "explanation": "9/12-8/12+2/12=3/12=1/4.",
+    "error_patterns": [
+      "order_of_operations",
+      "wrong_common_denominator"
+    ]
+  },
+  {
+    "id": "frac_30",
+    "question": "(1/2 + 1/3) × 3/5",
+    "answer": "1/2",
+    "difficulty": 5,
+    "hint": "Сначала сложи в скобках.",
+    "explanation": "5/6×3/5=15/30=1/2.",
+    "error_patterns": [
+      "order_of_operations"
+    ]
+  },
+  {
+    "id": "frac_h_31",
+    "question": "(3/4 + 5/6) ÷ 2/3",
+    "answer": "19/8",
+    "difficulty": 5,
+    "hint": "Сначала сложи дроби, затем умножь на обратную.",
+    "explanation": "Приводим к общему знаменателю: 3/4=9/12, 5/6=10/12. Получаем 19/12. Деление на 2/3 заменяем умножением на 3/2: 19/12 × 3/2 = 57/24 = 19/8.",
+    "error_patterns": [
+      "fraction_addition",
+      "division_error"
+    ]
+  },
+  {
+    "id": "frac_h_32",
+    "question": "(7/8 - 1/4) × 16",
+    "answer": "10",
+    "difficulty": 5,
+    "hint": "Сначала выполни вычитание дробей.",
+    "explanation": "1/4 = 2/8. Тогда 7/8 - 2/8 = 5/8. Теперь 5/8 × 16 = 10.",
+    "error_patterns": [
+      "fraction_multiplication"
+    ]
+  },
+  {
+    "id": "frac_h_33",
+    "question": "5/6 ÷ (1/3 + 1/6)",
+    "answer": "5/3",
+    "difficulty": 5,
+    "hint": "Сначала вычисли сумму в скобках, затем раздели.",
+    "explanation": "1/3 + 1/6 = 1/2. 5/6 ÷ 1/2 = 5/3.",
+    "error_patterns": [
+      "wrong_common_denominator",
+      "division_error"
+    ]
+  },
+  {
+    "id": "frac_h_34",
+    "question": "2 1/4 ÷ 3/8",
+    "answer": "6",
+    "difficulty": 5,
+    "hint": "Переведи смешанное число в дробь и умножь на обратную.",
+    "explanation": "2 1/4 = 9/4. 9/4 × 8/3 = 72/12 = 6.",
+    "error_patterns": [
+      "division_error"
+    ]
+  }
+]

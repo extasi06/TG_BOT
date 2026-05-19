@@ -1,0 +1,220 @@
+[
+  {
+    "id": "percent_1",
+    "topic": "percentages",
+    "difficulty": 2,
+    "question": "Найди 10% от 200",
+    "answer": "20",
+    "error_patterns": {
+      "2000": "percent_multiply",
+      "2": "percent_divide"
+    },
+    "feedback": {
+      "percent_multiply": "Похоже, ты просто умножил число на процент. Попробуй сначала перевести процент в дробь.",
+      "percent_divide": "Проверь деление. Процент означает часть от ста."
+    },
+    "hint": "Вспомни, что процент — это одна сотая часть числа."
+  },
+  {
+    "id": "percent_2",
+    "topic": "percentages",
+    "difficulty": 3,
+    "question": "Найди 25% от 80",
+    "answer": "20",
+    "error_patterns": {
+      "200": "percent_multiply",
+      "0.2": "decimal_confusion"
+    },
+    "feedback": {
+      "percent_multiply": "Похоже, ты просто умножил число на процент. Попробуй сначала перевести процент в дробь.",
+      "decimal_confusion": "Ты получил десятичную дробь. Попробуй перевести её в проценты."
+    },
+    "hint": "Вспомни, что процент — это одна сотая часть числа."
+  },
+  {
+    "id": "percent_3",
+    "topic": "percentages",
+    "difficulty": 1,
+    "question": "Сколько процентов составляет 50 от 200?",
+    "answer": "25",
+    "error_patterns": {
+      "0.25": "decimal_confusion"
+    },
+    "feedback": {
+      "decimal_confusion": "Ты получил десятичную дробь. Попробуй перевести её в проценты."
+    },
+    "hint": "Вспомни, что процент — это одна сотая часть числа."
+  },
+  {
+    "id": "percent_4",
+    "topic": "percentages",
+    "difficulty": 2,
+    "question": "Увеличь 100 на 20%",
+    "answer": "120",
+    "error_patterns": {
+      "20": "only_percent",
+      "80": "decrease_confusion"
+    },
+    "feedback": {
+      "only_percent": "Ты нашёл только процент, но не итоговый ответ задачи.",
+      "decrease_confusion": "Проверь условие. В задаче требуется уменьшение числа."
+    },
+    "hint": "Вспомни, что процент — это одна сотая часть числа."
+  },
+  {
+    "id": "percent_5",
+    "topic": "percentages",
+    "difficulty": 3,
+    "question": "Уменьши 300 на 10%",
+    "answer": "270",
+    "error_patterns": {
+      "30": "only_percent",
+      "330": "increase_confusion"
+    },
+    "feedback": {
+      "only_percent": "Ты нашёл только процент, но не итоговый ответ задачи.",
+      "increase_confusion": "Проверь условие задачи. Возможно, ты выполнил увеличение вместо уменьшения."
+    },
+    "hint": "Вспомни, что процент — это одна сотая часть числа."
+  },
+  {
+    "id": "percent_6",
+    "topic": "percentages",
+    "difficulty": 1,
+    "question": "Найди 5% от 500",
+    "answer": "25",
+    "error_patterns": {
+      "2500": "percent_multiply"
+    },
+    "feedback": {
+      "percent_multiply": "Похоже, ты просто умножил число на процент. Попробуй сначала перевести процент в дробь."
+    },
+    "hint": "Вспомни, что процент — это одна сотая часть числа."
+  },
+  {
+    "id": "percent_7",
+    "topic": "percentages",
+    "difficulty": 2,
+    "question": "Сколько процентов составляет 15 от 60?",
+    "answer": "25",
+    "error_patterns": {
+      "0.25": "decimal_confusion"
+    },
+    "feedback": {
+      "decimal_confusion": "Ты получил десятичную дробь. Попробуй перевести её в проценты."
+    },
+    "hint": "Вспомни, что процент — это одна сотая часть числа."
+  },
+  {
+    "id": "percent_8",
+    "topic": "percentages",
+    "difficulty": 3,
+    "question": "Найди 50% от 48",
+    "answer": "24",
+    "error_patterns": {
+      "96": "multiply_error"
+    },
+    "feedback": {
+      "multiply_error": "Попробуй ещё раз перевести проценты в дробь перед вычислением."
+    },
+    "hint": "Вспомни, что процент — это одна сотая часть числа."
+  },
+  {
+    "id": "percent_9",
+    "topic": "percentages",
+    "difficulty": 1,
+    "question": "Найди 30% от 90",
+    "answer": "27",
+    "error_patterns": {
+      "3": "divide_error"
+    },
+    "feedback": {
+      "divide_error": "Проверь вычисления. Возможно, число было разделено неправильно."
+    },
+    "hint": "Вспомни, что процент — это одна сотая часть числа."
+  },
+  {
+    "id": "percent_10",
+    "topic": "percentages",
+    "difficulty": 2,
+    "question": "Найди 75% от 200",
+    "answer": "150",
+    "error_patterns": {
+      "75": "only_percent"
+    },
+    "feedback": {
+      "only_percent": "Ты нашёл только процент, но не итоговый ответ задачи."
+    },
+    "hint": "Вспомни, что процент — это одна сотая часть числа."
+  },
+  {
+    "id": "percent_11",
+    "topic": "percentages",
+    "difficulty": 3,
+    "question": "Цена товара 400 рублей. Скидка 15%. Найди новую цену.",
+    "answer": "340",
+    "error_patterns": {
+      "60": "only_percent"
+    },
+    "feedback": {
+      "only_percent": "Ты нашёл только процент, но не итоговый ответ задачи."
+    },
+    "hint": "Вспомни, что процент — это одна сотая часть числа."
+  },
+  {
+    "id": "percent_12",
+    "topic": "percentages",
+    "difficulty": 1,
+    "question": "Число увеличили на 50% и получили 90. Найди исходное число.",
+    "answer": "60",
+    "error_patterns": {
+      "45": "half_confusion"
+    },
+    "feedback": {
+      "half_confusion": "Обрати внимание: увеличение на 50% — это не деление пополам."
+    },
+    "hint": "Вспомни, что процент — это одна сотая часть числа."
+  },
+  {
+    "id": "percent_13",
+    "topic": "percentages",
+    "difficulty": 2,
+    "question": "В классе 20 учеников. 40% — девочки. Сколько девочек?",
+    "answer": "8",
+    "error_patterns": {
+      "40": "only_percent"
+    },
+    "feedback": {
+      "only_percent": "Ты нашёл только процент, но не итоговый ответ задачи."
+    },
+    "hint": "Вспомни, что процент — это одна сотая часть числа."
+  },
+  {
+    "id": "percent_14",
+    "topic": "percentages",
+    "difficulty": 3,
+    "question": "Найди 1% от 700",
+    "answer": "7",
+    "error_patterns": {
+      "70": "zero_error"
+    },
+    "feedback": {
+      "zero_error": "Проверь количество нулей при вычислении процентов."
+    },
+    "hint": "Вспомни, что процент — это одна сотая часть числа."
+  },
+  {
+    "id": "percent_15",
+    "topic": "percentages",
+    "difficulty": 1,
+    "question": "После повышения цены на 10% товар стал стоить 220 рублей. Найди старую цену.",
+    "answer": "200",
+    "error_patterns": {
+      "242": "double_increase"
+    },
+    "feedback": {
+      "double_increase": "Возможно, процент был добавлен повторно."
+    },
+    "hint": "Вспомни, что процент — это одна сотая часть числа."
+  }
+]
